@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drop-Down List Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+    }
+    label {
+      font-weight: bold;
+    }
+    select {
+      padding: 5px;
+      font-size: 16px;
+      margin-left: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Select Your Favorite Programming Language</h2>
+
+  <form>
+    <!-- Label for accessibility -->
+    <label for="language">Choose a language:</label>
+    
+    <!-- Drop-down list -->
+    <select id="language" name="language">
+      <option value="">-- Select --</option>  <!-- Default placeholder -->
+      <option value="c">C</option>
+      <option value="cpp">C++</option>
+      <option value="java">Java</option>
+      <option value="python">Python</option>
+      <option value="javascript">JavaScript</option>
+    </select>
+  </form>
+
+</body>
+</html>
