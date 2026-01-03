@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM Manipulation Practical</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        #title {
+            color: darkblue;
+        }
+
+        .box {
+            padding: 15px;
+            margin-top: 15px;
+            background-color: #f2f2f2;
+            border: 2px solid #333;
+        }
+
+        button {
+            margin-top: 15px;
+            padding: 10px 15px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="title">DOM Manipulation Demo</h1>
+
+    <div class="box">
+        <p>This text will be changed using JavaScript.</p>
+    </div>
+
+    <button onclick="changeContent()">Click Me</button>
+
+    <script>
+        function changeContent() {
+
+            // 1️⃣ getElementById()
+            var heading = document.getElementById("title");
+            heading.innerHTML = "Heading Changed Using getElementById()";
+
+            // 2️⃣ querySelector()
+            var boxText = document.querySelector(".box p");
+            boxText.innerHTML = "Text updated using querySelector()";
+
+            // 3️⃣ innerHTML to add new content
+            var box = document.querySelector(".box");
+            box.innerHTML += "<p><b>New paragraph added using innerHTML</b></p>";
+        }
+    </script>
+
+</body>
+</html>
