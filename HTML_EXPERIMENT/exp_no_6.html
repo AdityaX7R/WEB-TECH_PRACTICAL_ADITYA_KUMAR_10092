@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML Forms Practical</title>
+</head>
+<body>
+
+    <h1>HTML Form Example</h1>
+
+    <form action="#" method="post">
+
+        <!-- Text input -->
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+        <!-- Email input -->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+
+        <!-- Password input -->
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+
+        <!-- Number input -->
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" min="1" max="100"><br><br>
+
+        <!-- Radio buttons -->
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="male"> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br><br>
+
+        <!-- Checkbox -->
+        <label>Skills:</label><br>
+        <input type="checkbox" name="skill" value="html"> HTML<br>
+        <input type="checkbox" name="skill" value="css"> CSS<br>
+        <input type="checkbox" name="skill" value="js"> JavaScript<br><br>
+
+        <!-- Select dropdown -->
+        <label for="course">Course:</label><br>
+        <select id="course" name="course">
+            <option value="web">Web Development</option>
+            <option value="python">Python</option>
+            <option value="java">Java</option>
+        </select><br><br>
+
+        <!-- Textarea -->
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="30"
+                  placeholder="Write your message"></textarea><br><br>
+
+        <!-- File upload -->
+        <label for="file">Upload File:</label><br>
+        <input type="file" id="file" name="file"><br><br>
+
+        <!-- Buttons -->
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+    </form>
+
+</body>
+</html>
