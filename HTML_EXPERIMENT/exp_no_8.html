@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Textarea in HTML</title>
+</head>
+<body>
+
+    <h1>Textarea Example in HTML</h1>
+
+    <!-- Textarea inside a form -->
+    <form action="#" method="post">
+
+        <label for="feedback">Feedback:</label><br><br>
+
+        <textarea id="feedback"
+                  name="feedback"
+                  rows="5"
+                  cols="40"
+                  placeholder="Enter your feedback here..."
+                  required>
+        </textarea>
+
+        <br><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+    </form>
+
+    <hr>
+
+    <!-- Read-only Textarea -->
+    <h2>Read-Only Textarea</h2>
+    <textarea rows="4" cols="40" readonly>
+This textarea is read-only.
+You cannot edit this text.
+    </textarea>
+
+    <hr>
+
+    <!-- Disabled Textarea -->
+    <h2>Disabled Textarea</h2>
+    <textarea rows="4" cols="40" disabled>
+This textarea is disabled.
+    </textarea>
+
+</body>
+</html>
