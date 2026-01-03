@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: darkblue;
+}
+
+.active {
+    background-color: #2ecc71;
+    color: white;
+}
