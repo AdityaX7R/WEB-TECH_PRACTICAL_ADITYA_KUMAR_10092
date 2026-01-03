@@ -1,0 +1,44 @@
+/* Page styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Container */
+.page {
+    width: 80%;
+    margin: 40px auto;   /* margin */
+    padding: 20px;       /* padding */
+    background-color: white;
+    border: 2px solid #333;
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Box Model example */
+.card {
+    margin: 20px;                  /* outer space */
+    padding: 20px;                 /* inner space */
+    border: 3px solid #0077cc;     /* border */
+    background-color: #eaf6ff;
+}
+
+/* Background image example */
+.image-box {
+    margin: 20px;
+    padding: 40px;
+    height: 200px;
+
+    background-image: url("https://images.unsplash.com/photo-1503264116251-35a269479413");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: white;
+    border: 3px dashed #444;
+}
