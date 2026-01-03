@@ -1,0 +1,41 @@
+/* 1️⃣ Universal Selector */
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* 2️⃣ ID Selector */
+#mainHeading {
+    color: darkblue;
+    text-align: center;
+    margin: 20px;
+}
+
+/* 3️⃣ Class Selector */
+.info {
+    color: green;
+    font-size: 18px;
+    margin: 15px;
+}
+
+/* 4️⃣ Descendant Selector */
+.box p {
+    color: white;
+    background-color: #444;
+    padding: 10px;
+}
+
+/* Box styling */
+.box {
+    margin: 20px;
+    padding: 15px;
+    background-color: #888;
+}
+
+/* 5️⃣ Group Selector */
+h3, span {
+    color: purple;
+    margin: 15px;
+    display: block;
+}
