@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Box styling */
+.box {
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid #333;
+    background-color: #f2f2f2;
+}
+
+/* Hidden state */
+.hidden {
+    display: none;
+}
+
+/* Toggle class */
+.highlight {
+    background-color: #2ecc71;
+    color: white;
+    border-color: green;
+}
+
+/* Buttons */
+button {
+    margin-right: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+}
