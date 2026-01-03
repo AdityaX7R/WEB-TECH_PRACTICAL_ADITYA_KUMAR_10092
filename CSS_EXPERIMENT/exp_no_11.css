@@ -1,0 +1,46 @@
+/* Page background */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Main layout container */
+.container {
+    width: 80%;
+    margin: 30px auto;
+    background-color: white;
+    border: 2px solid #333;
+}
+
+/* Div blocks */
+.header {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.content {
+    padding: 20px;
+    font-size: 18px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Span styling */
+.highlight {
+    color: red;
+    font-weight: bold;
+}
+
+.price {
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
